@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joeys Portfolio</title>
+
+    <!-- box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <!-- <i class='bx bx-menu' id="menu-icon"></i> -->
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a> 
+            <a href="#skills">Skills</a> 
+            <a href="#projects">Projects</a> 
+            <a href="#contact">Contact</a> 
+        </nav>
+    </header>
+    <!-- Home section design -->
+    <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, My Name Is</h3>
+                    <h1>Joey Alexander</h1>
+                    <h3>And I am student studying full stack web development</h3>
+                <div class="social-media">
+                        <a href="https://www.linkedin.com/in/joseph-alexander-6a0a41158/"><i class='bx bxl-linkedin-square'></i></a>
+                        <a href="https://github.com/joeyalexander127"><i class='bx bxl-github'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="self.jpeg" alt="image">
+            </div>
+    </section>
+    
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="about-img" id="">
+            <img src="lifemap.jpeg" alt="image">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <h3>Full Stack Developer</h3>
+            <p>I am currently studying full stack web development at LEARN Academy. I recently got out of the millitary and was looking for different fields to change my career and the tech world always interested me. Everything Ive heard about working in the software development field grabbed my attention. </p>
+            <a href="" class="btn">Show Resume</a>
+        </div>
+    </section>
+
+    <!-- Skills section  -->
+    <section class="skills-section" id="skills">
+            <h2 class = "heading">Skills</h2>
+
+            <div class="skills-box">
+                <div class="html-container">
+                    <i class='bx bxl-html5'></i>
+                    <h3>Html 5</h3>
+                </div>  
+                <div class="react-container">
+                    <i class='bx bxl-react'></i>
+                    <h3>React.js</h3>
+                </div>  
+                <div class="javascript-container">
+                    <i class='bx bxl-javascript'></i>
+                    <h3>Javascript</h3>
+                </div>  
+                <div class="CSS-container">
+                    <i class='bx bxl-css3'></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="ruby-container">
+                    <i class='bx bxs-diamond'></i>
+                    <h3>Ruby/</h3>
+                    <h3>Ruby on Rails</h3>
+                </div>
+            </div>
+    </section>
+<!-- Projects section   -->
+    <section class="projects-section" id="projects">
+        <h2 class="heading">Most recent Projects</h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <h2>Tic-Tac-Toe Game</h2>
+                <button class="test"><a href="https://joey-tic-tac-toe.onrender.com" target="_blank" class="btn">Website</a></button>
+            </div>
+        
+            <div class="projects-box">
+                <h2>Treasure Hunt Game</h2>
+                <button class="test"><a href=" https://joey-treasure-hunt.onrender.com/" target="_blank" class="btn">Website</a></button>  
+            </div>
+
+            <div class="projects-box">
+                <h2>Pig Latin Translater</h2>
+                <button class="test"><a href="https://joey-pig-latin.onrender.com/" target="_blank" class="btn">Website</a></button>
+            </div>
+
+            <div class="projects-box">
+                <h2>Sicarios Paintball Team</h2>
+                <button class="test"><a href="https://sicarios-paintball.onrender.com/" target="_blank" class="btn">Website</a></button>
+
+            </div>
+        </div>
+    </section>
+
+<!-- Contact section  -->
+    <section class="contact-section" id="contact">
+        <h2 class="heading">Contact Me</h2>
+
+        <form action = "#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+
+        </form>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
